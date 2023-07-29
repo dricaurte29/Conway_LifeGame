@@ -20,6 +20,7 @@ Conway's Game of Life is a cellular automaton devised by mathematician John Hort
    - Python's NumPy for array operations
    - Python's Pandas for reading the initial matrix from the 'matriz.xlsx' file
    - Python's Pygame for visualization
+   - Python's OpenPyXL for working with Excel files
 
 2. If you want to start the game with a specific initial matrix, you can provide it in the 'matriz.xlsx' file. The matrix should contain 0s and 1s, where 0 represents a dead cell and 1 represents a living cell. If you prefer to start with a random initial configuration, you can uncomment the line in 'game.py' that generates a random matrix.
 
@@ -34,6 +35,8 @@ To run this project, you need the following libraries:
 - NumPy
 - Pandas
 - Pygame
+- OpenPyXL
 
 You can install them using pip:
-
+```bash
+pip install numpy pandas pygame openpyxl
